@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Waseem Ali Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">Waseem Ali <span>Digital</span></a>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section" style="background-color: var(--primary); color: var(--white); text-align: center; padding: 60px 0;">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Let's discuss how we can help your business grow</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container grid-2">
+            <!-- Contact Info -->
+            <div>
+                <h2 style="margin-bottom: 30px;">Get In Touch</h2>
+                <p style="margin-bottom: 40px; color: var(--gray);">Have a question or want to start a project? Fill out the form or reach out to us directly using the information below.</p>
+                
+                <div class="contact-info-item">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div>
+                        <h3>Phone</h3>
+                        <p style="color: var(--gray);">952-832-2426</p>
+                        <p style="color: var(--gray);">Mon-Fri 9am-6pm</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h3>Email</h3>
+                        <p style="color: var(--gray);">info@waseemalidigital.com</p>
+                        <p style="color: var(--gray);">support@waseemalidigital.com</p>
+                    </div>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="flex gap-2" style="margin-top: 40px;">
+                    <a href="https://www.facebook.com/profile.php?id=61555634061886" style="font-size: 1.5rem; color: var(--primary);"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/waseem_ali_digital/" style="font-size: 1.5rem; color: var(--primary);"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/waseem-ali-b005123a4/" style="font-size: 1.5rem; color: var(--primary);"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" class="form-control">
+                            <option value="">Select a Service</option>
+                            <option value="social-media">Social Media Marketing</option>
+                            <option value="google-ads">Google Ads (PPC)</option>
+                            <option value="seo">SEO</option>
+                            <option value="web-dev">Web Development</option>
+                            <option value="meta-ads">Meta Ads</option>
+                            <option value="facebook-ads">Facebook Ads</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" rows="5" placeholder="Tell us about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3 class="logo" style="color: var(--white); margin-bottom: 20px;">Waseem Ali <span>Digital</span></h3>
+                    <p>Your partner in digital growth. We build brands and drive results through innovative marketing strategies.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Social Media Marketing</a></li>
+                        <li><a href="services.html">SEO</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">PPC Advertising</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope" style="margin-right: 10px;"></i> info@waseemalidigital.com</li>
+                        <li><i class="fas fa-phone" style="margin-right: 10px;"></i> 952-832-2426</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Waseem Ali Digital. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
